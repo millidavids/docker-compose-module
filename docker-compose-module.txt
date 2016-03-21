@@ -24,4 +24,8 @@ Attaching to dockercomposemodule_hello-container_1
 [0mAttaching to dockercomposemodule_hello-container_1
 [36mhello-container_1 | [0mHello, Docker Compose!
 [36mdockercomposemodule_hello-container_1 exited with code 0
+[0mAttaching to dockercomposemodule_data-container_1, dockercomposemodule_hello-container_1
+[33mhello-container_1 | [0mHello, Docker Compose!
+[36mdockercomposemodule_data-container_1 exited with code 0
+[0m[33mdockercomposemodule_hello-container_1 exited with code 0
 [0m
