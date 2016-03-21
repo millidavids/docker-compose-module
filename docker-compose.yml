@@ -4,8 +4,8 @@ services:
   hello-container:
     image: realpage/alpine-bash:3.3
 
-    volumes:
-      - ./scripts:/home/scripts
+    volumes_from:
+      - data-container
 
     command: /bin/bash /home/scripts/welcome-compose.sh
 
