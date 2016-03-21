@@ -21,4 +21,7 @@ Attaching to dockercomposemodule_hello-container_1
 [36mhello-container_1 | [0m https://docs.docker.com/userguide/
 [36mhello-container_1 | [0m
 [36mdockercomposemodule_hello-container_1 exited with code 0
+[0mAttaching to dockercomposemodule_hello-container_1
+[36mhello-container_1 | [0mHello, Docker Compose!
+[36mdockercomposemodule_hello-container_1 exited with code 0
 [0m

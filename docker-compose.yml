@@ -1,4 +1,8 @@
 version: '2'
 services:
   hello-container:
-    image: hello-world
+    image: realpage/alpine-bash:3.3
+
+    volumes:
+      - ./scripts:/home/scripts
+    command: /bin/bash /home/scripts/welcome-compose.sh
